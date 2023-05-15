@@ -19,3 +19,17 @@ main{
 .botaoLateral hover{
     background-color: rgba(255, 255, 255);
 }
+
+#divEsquerda{
+    width: 30%; height: auto;
+background-color: #9ec5fe;
+}
+#divMeio{
+    width: 40%; height: auto;
+background-image: url("../Images/sorrisoMenor.jpg"); background-size: cover;
+}
+#divDireita{
+    width: 30%; height: auto;
+background-color: #9ec5fe;
+    text-align: center;
+}
