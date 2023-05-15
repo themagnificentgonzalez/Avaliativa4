@@ -1,0 +1,18 @@
+    #principal{
+        padding: 200px;
+        display: flex;
+   align-items: center;
+   justify-content: center;
+    }
+#login {
+    width: 700px; height: 400px;
+   background-color: rgba(255, 255, 255, 0.459);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+#login:hover {
+    width: 720px; height: 420px; 
+    transition: 0.4s;
+}

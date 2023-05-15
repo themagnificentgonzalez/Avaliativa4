@@ -1,0 +1,9 @@
+body {
+    width: 99%;
+    background-image: url(../imagens/imgPausa.png); background-size: 1027px 760px; background-repeat: no-repeat; background-position-x: center; background-position-y: 20vh;
+    display: flex; align-content: end; justify-content: center;
+}
+#emConstrucao{
+    width: 1027px; height: 760px; 
+    display: flex; align-items: center; justify-content: center; flex-direction: column;
+ }

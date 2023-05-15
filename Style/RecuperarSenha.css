@@ -1,0 +1,16 @@
+#convergir {
+    width: 70%; height: 600px;
+    background-color: rgba(255, 255, 255, 0.493);
+    margin-left: 13%; margin-top: 8%;
+    display: flex; justify-content: space-between;
+}
+#convergirE {
+width: 49%; height: 300px;
+display: flex; align-items: center;
+margin-top: 100px;
+}
+#convergirD {
+width: 49%; height: 580px;
+margin-top: 10px; margin-right: 10px;
+background-image: url(../imagens/imgabrir.jpg); background-size: 580px; background-repeat: no-repeat; background-position: center;
+}
