@@ -27,7 +27,7 @@ body {
 }
 footer {
     display: flex; justify-content: center;
-    margin-top: 400px;
+    height: 2vh;
 }
 button {
     background-image: url(../imagens/padraoAco.png); font-weight: 600; border-radius: 4px;

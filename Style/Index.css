@@ -1,12 +1,20 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
+<<<<<<< Updated upstream
 main{
     display: flex; flex-direction: row;
     /*background-image: url("../Images/sorriso.png"); background-size: cover; background-repeat: no-repeat;*/
     /*width: 100%; height: 90vh;*/
+=======
+#divSecoes{
+    display: flex; flex-direction: row; flex-wrap: wrap;
+    padding-top: 39px;
+height: 100vh;
+margin: 0;
+>>>>>>> Stashed changes
     }
 
 .botaoLateral {
@@ -14,8 +22,68 @@ main{
     background-color: rgba(255, 255, 255, 0.5);
     display: flex; align-items: center; text-align: center; justify-content: center;
     font-family: Verdana; font-size: larger; font-weight: bolder;
+<<<<<<< Updated upstream
 }
 
 .botaoLateral hover{
     background-color: rgba(255, 255, 255);
 }
+=======
+    border-top: solid 2px royalblue;
+    border-bottom: solid 2px royalblue;
+    margin-top: 30px;
+}
+
+.botaoLateral:hover{
+    background-color:white; 
+}
+
+#divEsquerda{
+    width: 33.3%; height: auto;
+background-color: #9ec5fe;
+}
+
+#divMeio{
+    width: 33.3%; height: auto;
+    background-color: #9ec5fe;
+    display: flex; text-align: center; align-items: center;
+}
+
+#divDireita{
+    width: 33.3%; height: auto;
+background-color: #9ec5fe;
+    text-align: center;
+    padding-top: 30px;
+}
+
+h1{
+    color: royalblue;
+}
+
+h2{
+    color: royalblue;
+}
+
+#redesSociais{
+    display: flex; flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+@media screen and (max-width :920px){
+    #divSecoes{
+      flex-direction: column; flex-wrap: nowrap; width: 100%; height: auto;
+    }
+    #divEsquerda{
+        width: 100%; height: auto;
+        background-color: #9ec5fe;
+    }
+    #divMeio{
+        width: 100%; height: auto;            
+        background-color: #9ec5fe;
+    }
+    #divDireita{
+        width: 100%; height: auto;
+        background-color: #9ec5fe;
+    }
+    }
+>>>>>>> Stashed changes

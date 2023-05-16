@@ -3,6 +3,9 @@
         display: flex;
    align-items: center;
    justify-content: center;
+   background-image: url(../Images/entrar.png); background-size: cover; background-repeat: no-repeat; bac
+   background-color: #9ec5fe;
+   height: 98vh;
     }
 #login {
     width: 700px; height: 400px;
