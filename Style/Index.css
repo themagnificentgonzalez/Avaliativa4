@@ -4,7 +4,8 @@
 }
 
 main{
-    display: flex; flex-direction: row;
+    display: flex; flex-direction: row; flex-wrap: wrap;
+    padding-top: 39px;
     /*background-image: url("../Images/sorriso.png"); background-size: cover; background-repeat: no-repeat;*/
     /*width: 100%; height: 90vh;*/
     }
@@ -14,10 +15,13 @@ main{
     background-color: rgba(255, 255, 255, 0.5);
     display: flex; align-items: center; text-align: center; justify-content: center;
     font-family: Verdana; font-size: larger; font-weight: bolder;
+    border-top: solid 2px royalblue;
+    border-bottom: solid 2px royalblue;
+    margin-top: 10px;
 }
 
-.botaoLateral hover{
-    background-color: rgba(255, 255, 255);
+.botaoLateral:hover{
+    background-color:white; 
 }
 
 #divEsquerda{
@@ -25,11 +29,22 @@ main{
 background-color: #9ec5fe;
 }
 #divMeio{
-    width: 40%; height: auto;
+    width: 40%; height: 93vh;
 background-image: url("../Images/sorrisoMenor.jpg"); background-size: cover;
 }
 #divDireita{
     width: 30%; height: auto;
 background-color: #9ec5fe;
     text-align: center;
+}
+h1{
+    color: royalblue;
+}
+
+h2{
+    color: royalblue;
+}
+
+#redesSociais{
+    display: flex; flex-wrap: wrap;
 }

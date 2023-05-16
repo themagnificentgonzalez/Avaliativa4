@@ -11,7 +11,7 @@
 </head>
 <body>
 <header>
-    <div class="container-fluid bg-primary d-flex">
+    <div class="container-fluid bg-primary d-flex position-fixed">
         <img src="Images/medueleLogo.png" style="width: 35px; margin-right: 10px">
         <div class="dropdown">
             <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -26,22 +26,51 @@
     </div>
 </header>
 <main>
+    <div id="divCentral"></div>
     <div id="divEsquerda">
         <a href="#" class="botaoLateral">SERVIÇOS</a><br>
         <a href="#" class="botaoLateral">EQUIPE</a><br>
         <a href="#" class="botaoLateral">CADASTRO</a><br>
-    </div><div id="divMeio">
+        <a href="#" class="botaoLateral">ENTRAR</a><br>
+        <div class="c">
+<!-- incuir testemunhos -->
+
+        </div>
+    </div>
+    <div id="divMeio">
 <!--        <a href="#" class="botaoLateral">SERVIÇOS</a><br>-->
 <!--        <a href="#" class="botaoLateral">EQUIPE</a><br>-->
 <!--        <a href="#" class="botaoLateral">CADASTRO</a><br>-->
     </div><div id="divDireita">
         <h1>Seja bem vindo(a)!</h1><br>
     <p>É uma grande satisfação receber você aqui! Agora podemos definir sua melhor imagem.</p><br>
-    <p>Use o menu lateral para encontrar o que deseja. Se você já é nosso paciente, escolha <a>ENTRAR</a> para prosseguir. conhecer nossos serviços que incluem clareamento, implantes, lentes de contato e harmonização facial. Você pode tirar suas </p><br>
+     <p style="font-weight: bold;">Use o menu lateral para encontrar o que deseja.</p> <p>Se você já é nosso paciente, escolha <a href="Pages/Login.html">ENTRAR</a> para prosseguir. Lá, você encontrará as opções de marcação de consultas ou exames e poderá conferir seus agendamentos.</p> <br>
+     <p> Para conhecer nossos serviços que incluem clareamento, implantes, lentes de contato e harmonização facial, clique em <a href="#">SERVIÇOS</a>.</p><br>
+     <p>Conheça nosso time de especialistas e sua qualificação em <a href="#">EQUIPE</a>.</p>
+     <p>Para fazer seus primeiros agendamentos, inclusive para avaliação e orçamentos, escolha <a href="Pages/CadastroNovo.html">CADASTRO</a>.</p>
+     <h2>Acompanhe nossa história nas redes sociais:</h2>
+     <div id="redesSociais">
+        <div>
+            <a href="#"><img src="Images/instagram.svg" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img src="Images/facebook.svg" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img src="Images/twitter.svg" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img src="Images/pinterest.svg" alt=""></a>
+        </div>
+     </div>
     </div>
 
 </main>
-<footer></footer>
+<footer>
+    <div class="container-fluid bg-primary text-center p-0 m-0">
+        <p>TheMagnificentGonzalez 2023</p>
+    </div>
+</footer>
 <script src="Script/bootstrap.bundle.js"></script>
 </body>
 </html>
