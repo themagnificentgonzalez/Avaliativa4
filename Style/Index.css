@@ -9,8 +9,7 @@ header{
 
 #divSecoes{
     display: flex; flex-direction: row; flex-wrap: wrap;
-    padding-top: 39px;
-height: 100vh;
+height: 95vh;
 margin: 0;
     }
 

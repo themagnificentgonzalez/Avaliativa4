@@ -5,36 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recuperação de Senha</title>
-    <link rel="stylesheet" href="../CSS/geral.css">
-    <link rel="stylesheet" href="../CSS/RecuperarSenha.css">
+    <link rel="stylesheet" href="../Style/bootstrap.css">
+    <link rel="stylesheet" href="../Style/geral.css">
+    <link rel="stylesheet" href="../Style/RecuperarSenha.css">
 </head>
 <body>
     <header>
-        <div id="superior">
-            <div id="logo" >
-                <img src="../imagens/medueleLogo.png" alt="">
+        <div class="container-fluid bg-primary d-flex fixed-top">
+            <img src="../Images/medueleLogo.png" style="width: 35px; margin-right: 10px">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Opções
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../Index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="../Pages/Login.html">Entrar</a></li>
+                    <li><a class="dropdown-item" href="../Pages/CadastroNovo.html">Cadastro</a></li>
+                    <li><a class="dropdown-item" href="#">Contato</a></li>
+                </ul>
             </div>
-        <div id="navbar">
-            <a href="../index.html"></a><button type="button" >Home</button>
-            <a href="EmConstrucao.html"></a><button>Equipe</button>
-            <a href="EmConstrucao.html"></a><button>Consultas</button>
-            <a href="EmConstrucao.html"></a><button>Contato</button>
         </div>
-    </div>
        </header>
-       <container>
+       <!-- Inicio main -->
+       <main>
+        <div id="paginaRS">
 <div id="convergir">
-    <div id="convergirE">
-        <form action="../index.html" method="post">
+    <div id="convergirE"></div>
+    <div id="convergirD"><form action="../index.html" method="post">
             <div><label for="CPF">Informe o CPF:</label> <input type="tel" minlength="11" maxlength="11" size="10" style="margin-left: 10px;"></div><br>
             <div><label for="DataNascimento">Informe a data de nascimento:</label><input type="date" minlength="10" maxlength="10" size="10" style="margin-left: 10px;"></div><br>
             <div><label for="NomeMae">Informe o nome da mãe:</label> <input type="text" minlength="10" maxlength="120" size="60" style="margin-left: 10px;"></div><br>
-            <button type="submit" style="margin-left: 200px;">Enviar</button>
-        </form>
-    </div>
-    <div id="convergirD"></div>
+            <button type="submit">Enviar</button>
+        </form></div>
 </div>
-       </container>
-       <footer style="margin-top: 130px;"><p>2023 @ Meduele Implantes Dentários</p></footer>
+</div>
+    </main>
+       <footer><p>2023 @ Meduele Implantes Dentários</p></footer>
+       <script src="../Script/bootstrap.bundle.js"></script>
 </body>
 </html>
