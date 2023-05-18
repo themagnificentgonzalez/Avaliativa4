@@ -1,0 +1,19 @@
+#paginaContato{
+    width: 100%;
+    height: 94vh;
+    background-image: url(../Images/sorriso.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: royalblue;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contatos{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+}
