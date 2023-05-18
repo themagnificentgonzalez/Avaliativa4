@@ -3,10 +3,6 @@
     padding: 0px;
 }
 
-header{
-    margin-bottom: 40px;
-}
-
 #divSecoes{
     display: flex; flex-direction: row; flex-wrap: wrap;
 height: 95vh;

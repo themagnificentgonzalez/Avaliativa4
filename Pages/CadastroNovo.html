@@ -5,40 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Cadastro</title>
-    <link rel="stylesheet" href="../CSS/geral.css">
-    <link rel="stylesheet" href="../CSS/index.css">
-    <link rel="stylesheet" href="../CSS/CadastroNovo.css">
+    <link rel="stylesheet" href="../Style/bootstrap.css">
+    <link rel="stylesheet" href="../Style/geral.css">
+    <link rel="stylesheet" href="../Style/CadastroNovo.css">
 </head>
 <body>
+<!-- HEADER -->
+<div id="paginaCadastro">
     <header>
-        <div id="superior">
-            <div id="logo" >
-                <img src="../imagens/medueleLogo.png" alt="">
+        <div class="container-fluid bg-primary d-flex fixed-top">
+            <img src="../Images/medueleLogo.png" style="width: 35px; margin-right: 10px">
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Opções
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../Index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="../Pages/Login.html">Entrar</a></li>
+                    <li><a class="dropdown-item" href="#">Cadastro</a></li>
+                    <li><a class="dropdown-item" href="../Pages/Contato.html">Contato</a></li>
+                </ul>
             </div>
-        <div id="navbar">
-            <a href="../index.html"><button>Home</button></a>
-            <a href="EmConstrucao.html"><button>Equipe</button></a>
-            <a href="EmConstrucao.html"><button>Consultas</button></a>
-            <a href="EmConstrucao.html"><button>Contato</button></a>
         </div>
-    </div>
-       </header>
-       <container>
+    </header>
+<!-- MAIN -->
+    <main>
         <div id="conteudo">
-            <form action="../index.html">
-                <div><label for="Nome">Nome Completo:</label><br><input type="text" minlength="5" maxlength="120" size="65" style="margin-left: 10px;"></div><br>
+            <form action="../Pages/Login.html">
+                <div><label for="Nome">Nome Completo:</label><br><input type="text" minlength="5" maxlength="120" size="40" style="margin-left: 10px;"></div><br>
                 <div><label for="CPF">CPF nº:</label><br><input type="text" minlength="11" maxlength="11" size="10" style="margin-left: 10px;"></div><br>
-                <div><label for="CPF">Email:</label><br><input type="email" minlength="5" maxlength="120" size="65" style="margin-left: 10px;"></div><br>
-                <div><label for="CPF">Endereço:</label><br><input type="text" minlength="5" maxlength="120" size="65" style="margin-left: 10px;"></div><br>
+                <div><label for="CPF">Email:</label><br><input type="email" minlength="5" maxlength="120" size="40" style="margin-left: 10px;"></div><br>
+                <div><label for="CPF">Endereço:</label><br><input type="text" minlength="5" maxlength="120" size="40" style="margin-left: 10px;"></div><br>
                 <div><label for="CPF">CEP:</label><br><input type="tel" minlength="11" maxlength="11" size="10" style="margin-left: 10px;"></div><br>
                 <div><label for="CPF">Telefone:</label><br><input type="tel" minlength="11" maxlength="11" size="10" style="margin-left: 10px;"></div><br>
-            <div id="entradasCadastro"><h2 style="padding-left: 10px;">Sua senha será enviada por WhatsApp.</h2></div>
-            <div style="margin-left: 275px;"><button type="submit">Enviar</button></div>
+                <div id="entradasCadastro"><h2 style="padding-left: 10px;">Sua senha será enviada por WhatsApp.</h2></div>
+                
+            </form>
         </div>
-    </form>
-       </container>
-       <footer>
-        <p>2023 @ Meduele Implantes Dentários</p>
-       </footer>
+        <div style="text-align: center;"><button type="submit">Enviar</button></div>
+    </main>
+<!-- FOOTER -->
+    <footer class="footer fixed-bottom">
+        <p>2023@TheMagnificentGonzalez</p>
+    </footer>
+</div>
+<script src="../Script/bootstrap.bundle.js"></script>
 </body>
 </html>
