@@ -1,26 +1,25 @@
-header{
-    margin-bottom: 40px;
+ #paginaLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../Images/entrar.png); background-size: cover; background-repeat: no-repeat;
+    background-color: #9ec5fe;
+    height: 100vh;
 }
-    
-    #principal{
-        padding: 200px;
-        display: flex;
-   align-items: center;
-   justify-content: center;
-   background-image: url(../Images/entrar.png); background-size: cover; background-repeat: no-repeat;
-   background-color: #9ec5fe;
-   height: 92vh;
-    }
+
 #login {
     width: 700px; height: 400px;
-   background-color: rgba(255, 255, 255, 0.459);
+   background-color: rgba(255, 255, 255, 0.300);
+   color: royalblue;
    display: flex;
    align-items: center;
    flex-direction: column;
    padding: 15px;
    }
+   
 #login:hover {
-    background-color: #9ec4fe86;
+    background-color: rgba(255, 255, 255, 0.788);
     transition: 0.4s;
 }
 
@@ -31,8 +30,26 @@ form{
    gap: 20px;
 }
 
+input{
+    color: royalblue;
+    border: 1px solid royalblue;
+}
+
 button{
     width: 200px;
-    border: 2px solid black;
-    font-family: Roboto, Verdana, Arial;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex; 
+    align-items: center; 
+    text-align: center; 
+    justify-content: center;
+    font-family: Verdana; 
+    font-size: larger; 
+    font-weight: bolder; 
+    text-decoration: none;
+    color: royalblue;
+    border: solid 2px royalblue;
+}
+
+button:hover{
+    border: 4px solid royalblue;
 }

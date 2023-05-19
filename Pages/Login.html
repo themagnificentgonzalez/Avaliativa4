@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../Style/bootstrap.css">
 </head>
 <body>
+    <div id="paginaLogin">
     <header>
         <div class="container-fluid bg-primary d-flex fixed-top">
             <img src="../Images/medueleLogo.png" style="width: 35px; margin-right: 10px">
@@ -18,33 +19,35 @@
                     Opções
                 </button>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="../Pages/Login.html">Entrar</a></li>
+                    <li><a class="dropdown-item" href="../Index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="#">Entrar</a></li>
                     <li><a class="dropdown-item" href="../Pages/CadastroNovo.html">Cadastro</a></li>
-                    <li><a class="dropdown-item" href="#">Contato</a></li>
+                    <li><a class="dropdown-item" href="Contato.html">Contato</a></li>
                 </ul>
             </div>
         </div>
-       </header>
+    </header>
        <!-- Inicio main -->
-       <main>
-       <div id="principal">
-     <div id="login">
-        <h1>Informe seus dados para login:</h1>
-<form action="#" method="post">
-    <input type="email" id="usuario" placeholder="seunome@email.com"><br>
-    <input type="password" id="senha" placeholder="Senha" size="20"><br>
-    <button type="submit" onclick="logar()">Enviar</button><br>
-    <a href="../Pages/RecuperarSenha.html"><button type="button">Recuperar Senha</button></a><br>
-    <a href="../Pages/CadastroNovo.html"><button type="button">Criar cadastro</button></a><br>
-</form>
-     </div>
-    </div> 
-</main>
+    <main> 
+        <div id="login">
+            <h1>Informe seus dados para login:</h1>
+            <form action="#" method="post">
+                <input type="email" id="usuario" placeholder="seunome@email.com"><br>
+                <input type="password" id="senha" placeholder="Senha" size="20"><br>
+                <button type="submit" onclick="logar()">Enviar</button><br>
+                <a href="../Pages/RecuperarSenha.html"><button type="button">Recuperar Senha</button></a><br>
+                <a href="../Pages/CadastroNovo.html"><button type="button">Criar cadastro</button></a><br>
+            </form>
+        </div>
+    </main>
       <!-- Fim main -->
-       <footer style="margin-top: 10px;">
-        <p>2023 @ MeDuele Implantes Dentários</p>
-       </footer>
+    <footer>
+        <div class="footer fixed-bottom text-center">
+        <p>2023 @ TheMagnificentGonzalez</p>
+    </div>
+    </footer>
        <script src="../Script/bootstrap.bundle.js"></script>
        <script src="../Script/Login.js"></script>
+  </div>
 </body>
 </html>
