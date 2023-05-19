@@ -3,8 +3,8 @@ function logar(){
     var senha = document.getElementById("senha").value;
 
     if ((usuario === "ADM") && (senha === "ADM")){
-        document.write("Seja bem vindo, ADM.")
-        // window.open(URL) ABRIR PÁGINA OPCOES
+        window.location = "../Pages/Opcoes.html"
+
         }
     else {
         alert("Usuário ou senha incorretos!")
