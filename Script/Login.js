@@ -4,7 +4,7 @@ function logar(){
 
     if ((usuario === "ADM") && (senha === "ADM")){
         document.write("Seja bem vindo, ADM.")
-        // window.location.href = "../Pages/";
+        // window.open(URL) ABRIR PÁGINA OPCOES
         }
     else {
         alert("Usuário ou senha incorretos!")

@@ -27,3 +27,13 @@ header{
 .texto{
     display: flex; justify-content: center;
 }
+
+@media screen and (max-width :920px){
+    #paginaEquipe{
+        display: flex;
+        flex-direction: column;
+    }
+    .portaRetrato{
+        width: 100%;
+    }
+}
